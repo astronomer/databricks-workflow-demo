@@ -5,6 +5,16 @@ This is a demo of using Airflow and the [astro-provider-databricks](https://gith
 - `workflow_1`: Runs 4 notebooks with a TaskGroup and then trigger `workflow_2`
 - `workflow_2`: Runs 2 notebooks sequentially
 
+## Screenshots
+
+### Workflow 1: Airflow
+
+![workflow_1 DAG](./screenshots/workflow_1_airflow.png)
+
+### Workflow 1: Databricks
+
+![workflow_1 Databricks](./screenshots/workflow_1_databricks.png)
+
 ## Setup
 
 1. Clone this repo
